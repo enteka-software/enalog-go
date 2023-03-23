@@ -21,7 +21,7 @@ func New(apiToken string) *Client {
 	c := &Client{
 		apiToken: apiToken,
 		http:     makeHttpClient(),
-		BaseUrl:  "http://127.0.0.1:3000",
+		BaseUrl:  "https://api.enalog.app",
 	}
 
 	return c
