@@ -30,6 +30,7 @@ func TestPushEvent(t *testing.T) {
 		Icon:        "🚀",
 		Tags:        []string{},
 		Meta:        map[string]string{},
+		Channels:    map[string]string{},
 	}
 
 	res, err := client.PushEvent(event)

@@ -27,6 +27,7 @@ func main() {
         Icon: "🚀",
         Tags: []string{},
         Meta: map[string]string{}
+        Channels: map[string]string{}
     }
     
     _, _ := client.PushEvent(event)
