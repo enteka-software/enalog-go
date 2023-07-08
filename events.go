@@ -9,4 +9,5 @@ type Event struct {
 	Tags        []string          `json:"tags"`
 	Meta        map[string]string `json:"meta"`
 	Channels    map[string]string `json:"channels"`
+	UserId      string            `json:"user_id"`
 }
